@@ -5,9 +5,9 @@ import numpy as np
 import joblib
 
 # Load model & preprocessors
-model = joblib.load("wine_quality_model.pkl")
-imputer = joblib.load("imputer.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("data/wine_quality_model.pkl")
+imputer = joblib.load("models/imputer.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 st.set_page_config(
     page_title="Wine Quality Predictor", 
