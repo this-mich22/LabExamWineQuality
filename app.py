@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 
 # Load model & preprocessors
-model = joblib.load("data/wine_quality_model.pkl")
+model = joblib.load("models/wine_quality_model.pkl")
 imputer = joblib.load("models/imputer.pkl")
 scaler = joblib.load("models/scaler.pkl")
 
